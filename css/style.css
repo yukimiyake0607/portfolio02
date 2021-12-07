@@ -359,6 +359,19 @@ recruit
   background-color: #F7F7F7;
 }
 
+/* ------------------------
+contact
+------------------------ */
+#contact {
+  background-color: #F7F7F7;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#contact .contact-body {
+  margin: 35px 0 31px;
+}
+
 .news-item {
   display: -webkit-box;
   display: -ms-flexbox;
