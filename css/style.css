@@ -380,6 +380,7 @@ footer
   color: #fff;
   padding: 60px 0;
   text-align: center;
+  position: relative;
 }
 
 .footer .footer-nav > .footer-nav-list {
@@ -407,6 +408,28 @@ footer
   font-size: 1rem;
 }
 
+.footer .page-top-link {
+  position: absolute;
+  right: 45px;
+  bottom: 45px;
+  background-color: #391E88;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* ------------------------
+page-top
+------------------------ */
 .news-item {
   display: -webkit-box;
   display: -ms-flexbox;
