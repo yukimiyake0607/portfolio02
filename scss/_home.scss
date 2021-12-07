@@ -124,3 +124,18 @@ service
         text-align: center;
     }
 }
+
+
+/* ------------------------
+works
+------------------------ */
+#works {
+    max-width: $width-large;
+    background: linear-gradient(90deg, #fff 0%, #fff 40%, #F0F0F0 40%, #F0F0F0 100%);
+    padding: 60px 20px;
+    .works-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

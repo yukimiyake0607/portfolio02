@@ -297,6 +297,28 @@ service
   text-align: center;
 }
 
+/* ------------------------
+works
+------------------------ */
+#works {
+  max-width: 1300px;
+  background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(40%, #fff), color-stop(40%, #F0F0F0), to(#F0F0F0));
+  background: linear-gradient(90deg, #fff 0%, #fff 40%, #F0F0F0 40%, #F0F0F0 100%);
+  padding: 60px 20px;
+}
+
+#works .works-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .news-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -365,5 +387,22 @@ service
 
 .service-item .card-body .card-text {
   text-align-last: left;
+}
+
+.works-img-wrapper img {
+  width: 750px;
+  height: 510px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.works-text-wrapper {
+  width: 40%;
+  text-align: center;
+}
+
+.works-text-wrapper .works-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */

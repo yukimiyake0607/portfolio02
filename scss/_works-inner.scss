@@ -1,0 +1,15 @@
+.works-img-wrapper {
+    img {
+        width: 750px;
+        height: 510px;
+        object-fit: cover
+    }
+}
+.works-text-wrapper {
+    width: 40%;
+    text-align: center;
+    .works-text {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
