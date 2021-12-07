@@ -1,10 +1,28 @@
 .news-item {
     display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    line-height: 1;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
     .news-list-heading {
+        display: flex;
+        align-items: center;
         .news-list-category {
+            margin-left: 20px;
+            margin-right: 20px;
             .news-list-item {
                 display: block;
+                font-weight: bold;
+                font-size: 1.2rem;
+                padding: 5px 16px;
+                background-color: #E8E8E8;
+                border-radius: 50px;
             }
         }
+    }
+    .news-list-body {
+        font-weight: 300;
     }
 }

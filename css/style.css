@@ -239,15 +239,53 @@ news
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
+/* ------------------------
+service
+------------------------ */
 .news-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+.news-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.news-item .news-list-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news-item .news-list-heading .news-list-category {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .news-item .news-list-heading .news-list-category .news-list-item {
   display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px 16px;
+  background-color: #E8E8E8;
+  border-radius: 50px;
+}
+
+.news-item .news-list-body {
+  font-weight: 300;
 }
 /*# sourceMappingURL=style.css.map */
