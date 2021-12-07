@@ -372,6 +372,41 @@ contact
   margin: 35px 0 31px;
 }
 
+/* ------------------------
+footer
+------------------------ */
+.footer {
+  background-color: #120E19;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.footer .footer-nav > .footer-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.footer .footer-nav > .footer-nav-list .footer-nav-item {
+  margin-right: 30px;
+}
+
+.footer .footer-nav > .footer-nav-list .footer-nav-item:last-of-type {
+  margin-right: 0;
+}
+
+.footer .copyright {
+  color: #A798B7;
+  font-size: 1rem;
+}
+
 .news-item {
   display: -webkit-box;
   display: -ms-flexbox;
