@@ -350,6 +350,13 @@ recruit
 #recruit {
   max-width: 1110px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F7F7F7;
 }
 
 .news-item {
@@ -459,5 +466,19 @@ recruit
 .company-body .message-text {
   margin-top: 52px;
   margin-bottom: 30px;
+}
+
+.recruit-heading {
+  width: 40%;
+  text-align: center;
+}
+
+.recruit-heading .recruit-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.recruit-body {
+  width: 60%;
 }
 /*# sourceMappingURL=style.css.map */

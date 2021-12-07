@@ -175,4 +175,9 @@ recruit
 #recruit {
     max-width: $width-medium;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #F7F7F7;
 }
+
+
