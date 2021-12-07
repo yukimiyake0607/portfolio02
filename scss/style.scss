@@ -83,4 +83,50 @@ fv
             }
         }
     }
+    .fv-scroll {
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        display: inline-block;
+        overflow: hidden;
+        line-height: 1;
+        padding: 10px 10px 90px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 1.2rem;
+        writing-mode: vertical-lr;
+        &::after {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            width: 1px;
+            height: 80px;
+            background-color: #fff;
+            content: "";
+            animation-name: scrollDownLine;
+            animation-duration: 1.5s;
+            animation-timing-function: cubic-bezier(1, 0, 0, 1);
+            animation-iteration-count: infinite;
+        }
+    }
+}
+
+@keyframes scrollDownLine {
+    0% {
+        transform: scale(1,0);
+        transform-origin: 0 0;
+    }
+    50% {
+        transform: scale(1,1);
+        transform-origin: 0 0;
+    }
+    50.1% {
+        transform: scale(1,1);
+        transform-origin: 0 100%;
+    }
+    100% {
+        transform: scale(1,0);
+        transform-origin: 0 100%;
+    }
 }
