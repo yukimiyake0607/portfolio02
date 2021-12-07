@@ -95,4 +95,15 @@ header
     }
 }
 
+.fixed {
+    position: fixed;
+    background-color: #21054D;
+    transition: .3s;
+    width: 100%;
+    padding: 23px 30px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
 
