@@ -86,6 +86,27 @@ header
   margin-left: 0;
 }
 
+.header .header-nav .nav-list .nav-item a {
+  display: inline-block;
+  position: relative;
+}
+
+.header .header-nav .nav-list .nav-item a::after {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  bottom: 0;
+  height: 1px;
+  left: 0;
+  width: 0;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+.header .header-nav .nav-list .nav-item a:hover::after {
+  width: 100%;
+}
+
 .header .burger-btn {
   display: none;
 }
