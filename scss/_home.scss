@@ -144,6 +144,7 @@ works
 /* ------------------------
 company
 ------------------------ */
+
 #company {
     max-width: $width-large;
     margin: 0 auto;
@@ -163,4 +164,15 @@ company
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+
+
+
+/* ------------------------
+recruit
+------------------------ */
+
+#recruit {
+    max-width: $width-medium;
+    margin: 0 auto;
 }

@@ -344,6 +344,14 @@ company
   background-size: contain;
 }
 
+/* ------------------------
+recruit
+------------------------ */
+#recruit {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
 .news-item {
   display: -webkit-box;
   display: -ms-flexbox;
