@@ -327,10 +327,21 @@ company
   margin: 0 auto;
   padding: 100px 0 70px;
   background-image: url("../img/bg-face.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 #company .company-inner {
   text-align: center;
+}
+
+.company-bg {
+  margin-top: 60px;
+  background-image: url("../img/bg-circle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .news-item {
@@ -417,6 +428,28 @@ company
 
 .works-text-wrapper .works-text {
   margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.company-heading {
+  margin-bottom: 40px;
+}
+
+.company-body .message-title {
+  font-size: 4rem;
+  font-weight: 600;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #F5F534;
+          text-decoration-color: #F5F534;
+  text-decoration-thickness: 12px;
+}
+
+.company-body .message-title .sp-br {
+  display: none;
+}
+
+.company-body .message-text {
+  margin-top: 52px;
   margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -149,7 +149,18 @@ company
     margin: 0 auto;
     padding: 100px 0 70px;
     background-image: url("../img/bg-face.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     .company-inner {
         text-align: center;
     }
+}
+
+.company-bg {
+    margin-top: 60px;
+    background-image: url("../img/bg-circle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }

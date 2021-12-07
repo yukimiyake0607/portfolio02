@@ -1,0 +1,19 @@
+.company-heading {
+    margin-bottom: 40px;
+}
+.company-body {
+    .message-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-decoration: underline;
+        text-decoration-color: #F5F534;
+        text-decoration-thickness: 12px;
+        .sp-br {
+            display: none;
+        }
+    }
+    .message-text {
+        margin-top: 52px;
+        margin-bottom: 30px;
+    }
+}
