@@ -117,5 +117,10 @@ service
     }
     .service-list {
         display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .service-link {
+        text-align: center;
     }
 }
