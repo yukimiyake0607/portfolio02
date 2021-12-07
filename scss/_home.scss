@@ -99,6 +99,9 @@ news
         display: flex;
         justify-content: space-between;
         align-items: center;
+        .news-heading {
+            text-align: center;
+        }
     }
 }
 
@@ -106,3 +109,13 @@ news
 /* ------------------------
 service
 ------------------------ */
+#service {
+    max-width: $width-large;
+    .service-heading {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .service-list {
+        display: flex;
+    }
+}
