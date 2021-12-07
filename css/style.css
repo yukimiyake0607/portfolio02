@@ -1,3 +1,21 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  color: #333333;
+  font-family: "Montserrat",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+/* ------------------------
+header
+------------------------ */
 .header {
   position: absolute;
   width: calc(100% - 60px);
@@ -8,6 +26,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  color: #fff;
+  z-index: 10;
 }
 
 .header .header-nav .nav-list {
@@ -28,19 +48,48 @@
   display: none;
 }
 
+/* ------------------------
+fv
+------------------------ */
 .fv {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url();
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-html {
-  font-size: 62.5%;
+.fv .main-copy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
 }
 
-body {
-  font-size: 1.5rem;
-  color: #333333;
+.fv .main-copy .main-title {
+  font-size: 7.2rem;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+
+.fv .main-copy .main-subtitle {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.fv .main-copy .link .link-btn {
+  font-weight: bold;
+  padding: 20px 70px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  display: block;
+  margin: 50px auto 0;
+  width: 220px;
 }
 /*# sourceMappingURL=style.css.map */
