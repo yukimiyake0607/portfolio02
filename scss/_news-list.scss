@@ -1,0 +1,10 @@
+.news-item {
+    display: flex;
+    .news-list-heading {
+        .news-list-category {
+            .news-list-item {
+                display: block;
+            }
+        }
+    }
+}
