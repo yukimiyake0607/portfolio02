@@ -139,3 +139,17 @@ works
         justify-content: space-between;
     }
 }
+
+
+/* ------------------------
+company
+------------------------ */
+#company {
+    max-width: $width-large;
+    margin: 0 auto;
+    padding: 100px 0 70px;
+    background-image: url("../img/bg-face.png");
+    .company-inner {
+        text-align: center;
+    }
+}
