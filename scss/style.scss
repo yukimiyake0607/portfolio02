@@ -1,3 +1,14 @@
+/* ------------------------
+_setting.scss
+------------------------ */
+$width-large: 1300px;
+$width-medium: 1110px;
+$width-small: 917px;
+
+
+/* ------------------------
+base
+------------------------ */
 html {
     font-size: 62.5%;
 }
@@ -9,6 +20,34 @@ body {
 img {
     width: 100%;
     vertical-align: bottom;
+}
+.section-wrapper {
+    padding: 140px 4vw 0;
+    &:first-of-type {
+        padding-top: 70px;
+    }
+    &:nth-of-type(4) {
+        padding-top: 60px;
+    }
+    &:nth-of-type(5) {
+        padding-top: 65px;
+    }
+    &:last-of-type {
+        padding: 80px 4vw;
+    }
+    .section-inner {
+        .section-title {
+            font-size: 3.6rem;
+            font-weight: bold;
+            color: #391E88;
+            .section-subtitle {
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: #391E88;
+                display: block;
+            }
+        }
+    }
 }
 
 
@@ -130,3 +169,10 @@ fv
         transform-origin: 0 100%;
     }
 }
+
+
+
+/* ------------------------
+news
+------------------------ */
+
