@@ -16,7 +16,8 @@
         "../scss/_news-article.scss",
         "../scss/_service.scss",
         "../scss/_works.scss",
-        "../scss/_company.scss"
+        "../scss/_company.scss",
+        "../scss/_recruit.scss"
     ],
     "names": [],
     "file": "style.css"
