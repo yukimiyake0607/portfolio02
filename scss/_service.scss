@@ -1,0 +1,37 @@
+.service-contents {
+    padding: 70px 4vw 110px;
+    .service-content {
+        max-width: $width-medium;
+        margin: 0 auto;
+        .service-list {
+            .service-item-list {
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                margin-bottom: 60px;
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+                .img-wrapper {
+                    img {
+                        width: 445px;
+                        height: 280px;
+                        object-fit: cover;
+                        margin-right: 50px;
+                    }
+                }
+                .text-wrapper {
+                    max-width: 615px;
+                    .text-heading {
+                        width: 100%;
+                        .service-content-title {
+                            font-size: 2.4rem;
+                            font-weight: bold;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
