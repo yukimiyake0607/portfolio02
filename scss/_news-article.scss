@@ -28,5 +28,88 @@
                 }
             }
         }
+        .news-article-inner {
+            .img-wrapper {
+                margin-bottom: 30px;
+            }
+            .news-article-content-title {
+                font-size: 2.4rem;
+                font-weight: 600;
+                margin-top: 60px;
+                margin-bottom: 20px;
+                padding: 10px 0;
+                &::before {
+                    background-color: #391E88; /* 線色 */
+                    border-radius: 3px; /* 線幅の半分 */
+                    content: "";
+                    display: inline-block;
+                    height: 38px; /* 線の長さ */
+                    margin-right: 16px; /* 線右の余白 */
+                    vertical-align: middle;
+                    width: 6px; /* 線幅 */
+                }
+            }
+            .news-article-content-subtitle {
+                font-size: 1.8rem;
+                font-weight: 600;
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+            .content-text > .content-subtext {
+                margin-bottom: 30px;
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .post-sns {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            .sns-share > .sns-share-list {
+                display: flex;
+                align-items: center;
+                .sns-share-item {
+                    margin-right: 5px;
+                    &:last-of-type {
+                        margin-right: 0;
+                    }
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .post-pager {
+            width: 100%;
+            .post-pager-inner {
+                padding-top: 11px;
+                padding-bottom: 11px;
+                border-top: 1px solid #B8AED5;
+                border-bottom: 1px solid #B8AED5;
+                .post-pager-list {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .post-pager-item {
+                        padding: 18px 30px;
+                        width: 50%;
+                        &:first-of-type {
+                            border-right: 1px solid #B8AED5;
+                        }
+                    }
+                }
+            }
+            .post-pager-home {
+                margin-top: 20px;
+                font-size: 1.4rem;
+                color: #391E88;
+                a {
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
     }
 }
