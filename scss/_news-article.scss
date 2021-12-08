@@ -1,0 +1,32 @@
+.news-article-contents {
+    padding: 70px 4vw 110px;
+    .news-article-content {
+        max-width: 750px;
+        margin: 0 auto;
+        .news-article-list-title {
+            margin-bottom: 27px;
+            .news-article-title {
+                font-size: 3.2rem;
+                margin-bottom: 10px;
+            }
+            .news-article-list-heading {
+                display: flex;
+                align-items: center;
+                .news-article-list-date {
+                    margin-right: 10px;
+                    font-size: 1.3rem;
+                }
+                .news-article-list-category {
+                    .news-article-list-item {
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        background-color: #E8E8E8;
+                        display: block;
+                        padding: 5px 16px;
+                        border-radius: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
