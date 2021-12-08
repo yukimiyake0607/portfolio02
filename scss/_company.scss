@@ -4,16 +4,41 @@
         max-width: $width-large;
         margin: 0 auto 140px;
         .greeting-message {
-            background-image: url("/img/bg-face.png");
+            padding: 0 84px;
+            margin-bottom: 56px;
+            background-image: url("../img/bg-circle.png");
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
-            .greeting-heading {
-                text-align: center;
-                .heading-secondary {
-                    font-size: 3.2rem;
-                    font-weight: bold;
-                    color: #391E88;
+            .greeting-bg {
+                padding: 100px 0;
+                background-image: url("../img/bg-face.png");
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                .greeting-heading {
+                    text-align: center;
+                    .heading-secondary {
+                        font-size: 3.2rem;
+                        font-weight: bold;
+                        color: #391E88;
+                    }
+                }
+                .greeting-body {
+                    text-align: center;
+                    line-height: 1.667;
+                    .message-heading {
+                        margin-top: 31px;
+                        margin-bottom: 37px;
+                        font-size: 4rem;
+                        font-weight: 600;
+                        text-decoration: underline;
+                        text-decoration-color: #F5F534;
+                        text-decoration-thickness: 12px;
+                        .sp-br {
+                            display: none;
+                        }
+                    }
                 }
             }
         }

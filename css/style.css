@@ -964,20 +964,50 @@ page-top
 }
 
 .company-contents .greeting .greeting-message {
-  background-image: url("/img/bg-face.png");
+  padding: 0 84px;
+  margin-bottom: 56px;
+  background-image: url("../img/bg-circle.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.company-contents .greeting .greeting-message .greeting-heading {
+.company-contents .greeting .greeting-message .greeting-bg {
+  padding: 100px 0;
+  background-image: url("../img/bg-face.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.company-contents .greeting .greeting-message .greeting-bg .greeting-heading {
   text-align: center;
 }
 
-.company-contents .greeting .greeting-message .greeting-heading .heading-secondary {
+.company-contents .greeting .greeting-message .greeting-bg .greeting-heading .heading-secondary {
   font-size: 3.2rem;
   font-weight: bold;
   color: #391E88;
+}
+
+.company-contents .greeting .greeting-message .greeting-bg .greeting-body {
+  text-align: center;
+  line-height: 1.667;
+}
+
+.company-contents .greeting .greeting-message .greeting-bg .greeting-body .message-heading {
+  margin-top: 31px;
+  margin-bottom: 37px;
+  font-size: 4rem;
+  font-weight: 600;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #F5F534;
+          text-decoration-color: #F5F534;
+  text-decoration-thickness: 12px;
+}
+
+.company-contents .greeting .greeting-message .greeting-bg .greeting-body .message-heading .sp-br {
+  display: none;
 }
 
 .company-contents .greeting .greeting-ceo {
