@@ -534,8 +534,8 @@ page-top
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 15px;
-  line-height: 1;
+  margin-bottom: 10px;
+  line-height: 1.8;
 }
 
 .news-item:last-of-type {
@@ -648,5 +648,50 @@ page-top
 
 .recruit-body {
   width: 60%;
+}
+
+.news-contents {
+  padding: 60px 4vw 110px;
+}
+
+.news-contents .news-content {
+  max-width: 917px;
+  margin: 0 auto;
+}
+
+.news-contents .news-content .news-list {
+  margin-bottom: 40px;
+}
+
+.news-contents .news-content .link .link-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.news-contents .news-content .link .link-list .link-item {
+  margin-right: 10px;
+}
+
+.news-contents .news-content .link .link-list .link-item:last-of-type {
+  margin-right: 0;
+}
+
+.news-contents .news-content .link .link-list .link-item .link-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
