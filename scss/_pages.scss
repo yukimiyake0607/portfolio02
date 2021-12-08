@@ -1,0 +1,16 @@
+/* ---------------------------------
+各ページの共通クラス
+--------------------------------- */
+.fv {
+    height: 240px;
+    .heading-primary {
+        font-size: 3.6rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+        .heading-primary-sub {
+            font-size: 1.4rem;
+            font-weight: bold;
+            display: block;
+        }
+    }
+}
