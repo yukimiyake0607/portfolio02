@@ -13,7 +13,8 @@
         "../scss/_company-inner.scss",
         "../scss/_recruit-inner.scss",
         "../scss/_news.scss",
-        "../scss/_news-article.scss"
+        "../scss/_news-article.scss",
+        "../scss/_service.scss"
     ],
     "names": [],
     "file": "style.css"
