@@ -812,6 +812,7 @@ page-top
 
 .news-article-contents .news-article-content .post-pager {
   width: 100%;
+  color: #391E88;
 }
 
 .news-article-contents .news-article-content .post-pager .post-pager-inner {
@@ -951,5 +952,92 @@ page-top
   margin-top: 15px;
   text-align: center;
   font-size: 1.6rem;
+}
+
+.company-contents {
+  padding: 0 4vw 110px;
+}
+
+.company-contents .greeting {
+  max-width: 1300px;
+  margin: 0 auto 140px;
+}
+
+.company-contents .greeting .greeting-message {
+  background-image: url("/img/bg-face.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.company-contents .greeting .greeting-message .greeting-heading {
+  text-align: center;
+}
+
+.company-contents .greeting .greeting-message .greeting-heading .heading-secondary {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #391E88;
+}
+
+.company-contents .greeting .greeting-ceo {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.company-contents .greeting .greeting-ceo .ceo-img-wrapper img {
+  width: 445px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.company-contents .greeting .greeting-ceo .ceo-message {
+  max-width: 605px;
+  line-height: 1.667;
+}
+
+.company-contents .company-summary {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.company-contents .company-summary .company-summary-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.company-contents .company-summary .company-summary-heading .heading-secondary {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #391E88;
+}
+
+.company-contents .company-summary .company-summary-table {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.company-contents .company-summary .company-summary-table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.company-contents .company-summary .company-summary-table tr th {
+  width: 20%;
+  padding: 30px 10px;
+}
+
+.company-contents .company-summary .company-summary-table tr td {
+  width: 80%;
+  padding: 30px 0;
 }
 /*# sourceMappingURL=style.css.map */
