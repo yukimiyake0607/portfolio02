@@ -32,7 +32,8 @@
 
 
 .guide-arrow-wrapper {
-    width: 100%;
+    width: 100vw;
+    box-sizing: border-box;
     padding: 15px 165px;
     background-color: #F7F7F7;
     .guide-arrow-list {
