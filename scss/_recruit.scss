@@ -1,0 +1,37 @@
+.recruit-contents {
+    padding: 116px 0 110px;
+    background-image: url("../img/bg-geometry.png");
+    .recruit-message {
+        &-heading {
+            color: #391E88;
+            text-align: center;
+            margin-bottom: 40px;
+            &-title {
+                font-size: 7.2rem;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            &-subtitle {
+                font-size: 3.2rem;
+                font-weight: 300;
+            }
+        }
+        &-body {
+            p {
+                font-size: 1.6rem;
+                line-height: 1.75;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            &-img {
+                overflow: hidden;
+                height: 780px;
+                background-image: url(../img/recruit01.jpg);
+                background-repeat: no-repeat;
+                background-position: center 80%;
+                background-size: cover;
+                clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+            }
+        }
+    }
+}
