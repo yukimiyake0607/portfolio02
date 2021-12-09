@@ -305,6 +305,36 @@ footer
     .sp-br {
         display: block;
     }
+
+    .header {
+        &-nav {
+            display: none;
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(#642390 0%, #19074a 100%);
+        }
+        .burger-btn {
+            display: block;
+            .bars {
+                .bar {
+                    display: block;
+                    height: 2px;
+                    width: 31px;
+                    background-color: #fff;
+                    border-radius: 1px;
+                }
+                .bar-top {
+                    margin-bottom: 7px;
+                }
+                .bar-mid {
+                    margin-bottom: 7px;
+                }
+            }
+        }
+    }
+
     .fv {
         .main-copy {
             text-align: left;
@@ -315,6 +345,19 @@ footer
                 .link-btn {
                     margin: 50px auto 0 0;
                 }
+            }
+        }
+    }
+
+
+    /* ---------------------------------------
+    news
+    --------------------------------------- */
+    #news {
+        .news-inner {
+            display: block;
+            .news-heading {
+                margin-bottom: 32px;
             }
         }
     }

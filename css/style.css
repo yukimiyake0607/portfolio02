@@ -473,6 +473,31 @@ footer
   .sp-br {
     display: block;
   }
+  .header-nav {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: -webkit-gradient(linear, left top, left bottom, from(#642390), to(#19074a));
+    background: linear-gradient(#642390 0%, #19074a 100%);
+  }
+  .header .burger-btn {
+    display: block;
+  }
+  .header .burger-btn .bars .bar {
+    display: block;
+    height: 2px;
+    width: 31px;
+    background-color: #fff;
+    border-radius: 1px;
+  }
+  .header .burger-btn .bars .bar-top {
+    margin-bottom: 7px;
+  }
+  .header .burger-btn .bars .bar-mid {
+    margin-bottom: 7px;
+  }
   .fv .main-copy {
     text-align: left;
   }
@@ -481,6 +506,15 @@ footer
   }
   .fv .main-copy .link .link-btn {
     margin: 50px auto 0 0;
+  }
+  /* ---------------------------------------
+    news
+    --------------------------------------- */
+  #news .news-inner {
+    display: block;
+  }
+  #news .news-inner .news-heading {
+    margin-bottom: 32px;
   }
 }
 
@@ -590,6 +624,19 @@ footer
 
 .news-item .news-list-body {
   font-weight: 300;
+}
+
+/* ----------------------------
+メディアクエリ
+---------------------------- */
+@media screen and (max-width: 768px) {
+  .news-item {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .news-item .news-list-heading {
+    margin-bottom: 10px;
+  }
 }
 
 .service-item {

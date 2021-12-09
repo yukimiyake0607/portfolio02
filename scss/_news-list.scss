@@ -28,3 +28,21 @@
         font-weight: 300;
     }
 }
+
+
+
+
+
+/* ----------------------------
+メディアクエリ
+---------------------------- */
+
+@media screen and (max-width:768px) {
+    .news-item {
+        display: block;
+        margin-bottom: 40px;
+        .news-list-heading {
+            margin-bottom: 10px;
+        }
+    }
+}
