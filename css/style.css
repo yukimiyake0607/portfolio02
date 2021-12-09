@@ -37,6 +37,7 @@ img {
 
 .section-wrapper:nth-of-type(5) {
   padding-top: 65px;
+  padding-bottom: 100px;
 }
 
 .section-wrapper:last-of-type {
@@ -399,7 +400,6 @@ contact
 ------------------------ */
 #contact {
   background-color: #F7F7F7;
-  margin-top: 100px;
   text-align: center;
 }
 
@@ -1190,6 +1190,99 @@ page-top
 .recruit-contents .company-movie__movie iframe {
   width: 100%;
   height: 624px;
+  margin: 0 auto;
+}
+
+.contact-forms {
+  padding: 70px 4vw;
+}
+
+.contact-forms-heading {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-forms-body {
+  max-width: 1110px;
+  padding: 90px;
+  background-color: #F7F7F7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.contact-forms-body .form-item {
+  margin-bottom: 30px;
+}
+
+.contact-forms-body .form-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.contact-forms-body .form-require {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 10px;
+  color: #391E88;
+}
+
+.contact-forms-body .form-radio {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.contact-forms-body .form-radio:last-of-type {
+  margin-right: 0;
+}
+
+.contact-forms-body .form-input {
+  width: 300px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid #AAAAAA;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+}
+
+.contact-forms-body .form-note {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.contact-forms-body .form-textarea {
+  min-width: 600px;
+  min-height: 200px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #AAAAAA;
+  border-radius: 6px;
+  resize: both;
+  background-color: #fff;
+}
+
+.contact-forms-body .form-select {
+  width: 300px;
+  height: 40px;
+  padding: 13px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #AAAAAA;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.contact-forms-body .form .link-btn {
+  display: block;
   margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */

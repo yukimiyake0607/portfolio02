@@ -1,0 +1,78 @@
+.contact-forms {
+    padding: 70px 4vw;
+    &-heading {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &-body {
+        max-width: $width-medium;
+        padding: 90px;
+        background-color: #F7F7F7;
+        box-sizing: border-box;
+        margin: 0 auto;
+        .form {
+            &-item {
+                margin-bottom: 30px;
+            }
+            &-title {
+                font-size: 1.6rem;
+                font-weight: 600;
+                margin-bottom: 15px;
+                display: block;
+            }
+            &-require {
+                font-size: 1.2rem;
+                font-weight: 600;
+                margin-left: 10px;
+                color: #391E88;
+            }
+            &-radio {
+                display: inline-block;
+                margin-right: 35px;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+            &-input {
+                width: 300px;
+                height: 40px;
+                border-radius: 6px;
+                border: 1px solid #AAAAAA;
+                padding: 5px;
+                box-sizing: border-box;
+                background-color: #fff;
+            }
+            &-note {
+                font-size: 1.2rem;
+                font-weight: 300;
+                margin-left: 5px;
+            }
+            &-textarea {
+                min-width: 600px;
+                min-height: 200px;
+                padding: 5px;
+                box-sizing: border-box;
+                border: 1px solid #AAAAAA;
+                border-radius: 6px;
+                resize: both;
+                background-color: #fff;
+            }
+            &-select {
+                width: 300px;
+                height: 40px;
+                padding: 13px;
+                box-sizing: border-box;
+                background-color: #fff;
+                border-radius: 6px;
+                border: 1px solid #AAAAAA;
+                font-size: 1.4rem;
+                line-height: 1;
+            }
+            .link-btn {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
