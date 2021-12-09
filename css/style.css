@@ -61,6 +61,29 @@ img {
   display: block;
 }
 
+.link-btn {
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, from(#7633a4), color-stop(51%, #250d65), to(#7633a4));
+  background-image: linear-gradient(to right, #7633a4 0%, #250d65 51%, #7633a4 100%);
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 21px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50px;
+  background-size: 200% auto;
+  -webkit-transition: .3s;
+  transition: .3s;
+  position: relative;
+}
+
+.link-btn:hover {
+  background-position: right center;
+}
+
 /* ------------------------
 header
 ------------------------ */
@@ -128,29 +151,6 @@ header
   left: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.link-btn {
-  display: inline-block;
-  background-image: -webkit-gradient(linear, left top, right top, from(#7633a4), color-stop(51%, #250d65), to(#7633a4));
-  background-image: linear-gradient(to right, #7633a4 0%, #250d65 51%, #7633a4 100%);
-  width: 200px;
-  color: #fff;
-  text-align: center;
-  font-size: 1.4rem;
-  font-weight: bold;
-  padding: 21px 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 50px;
-  background-size: 200% auto;
-  -webkit-transition: .3s;
-  transition: .3s;
-  position: relative;
-}
-
-.link-btn:hover {
-  background-position: right center;
 }
 
 /* ------------------------

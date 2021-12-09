@@ -1,4 +1,62 @@
 /* ------------------------
+header
+------------------------ */
+.header {
+    position: absolute;
+    width: calc(100% - 60px);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    z-index: 10;
+    .header-nav {
+        .nav-list {
+            display: flex;
+            .nav-item {
+                margin-left: 25px;
+                &:first-of-type {
+                    margin-left: 0;
+                }
+                a {
+                    display: inline-block;
+                    position: relative;
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        background-color: #fff;
+                        bottom: 0;
+                        height: 1px;
+                        left: 0;
+                        width: 0;
+                        transition: .5s all;
+                    }
+                    &:hover::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .burger-btn {
+        display: none;
+    }
+}
+
+.fixed {
+    position: fixed;
+    background-color: #21054D;
+    transition: .3s;
+    width: 100%;
+    padding: 23px 30px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ------------------------
 fv
 ------------------------ */
 
