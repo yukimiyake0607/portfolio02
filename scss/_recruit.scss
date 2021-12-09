@@ -83,4 +83,23 @@
             }
         }
     }
+
+    .company-movie {
+        max-width: $width-medium;
+        margin: 0 auto;
+        &-heading {
+            font-size: 3.2rem;
+            font-weight: 700;
+            text-align: center;
+            color: #391E88;
+            margin-bottom: 40px;
+        }
+        &__movie {
+            iframe {
+                width: 100%;
+                height: 624px;
+                margin: 0 auto;
+            }
+        }
+    }
 }

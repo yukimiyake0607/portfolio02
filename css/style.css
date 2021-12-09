@@ -1173,4 +1173,23 @@ page-top
   display: block;
   margin-top: 10px;
 }
+
+.recruit-contents .company-movie {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.recruit-contents .company-movie-heading {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #391E88;
+  margin-bottom: 40px;
+}
+
+.recruit-contents .company-movie__movie iframe {
+  width: 100%;
+  height: 624px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
