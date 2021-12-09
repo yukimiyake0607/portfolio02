@@ -371,4 +371,16 @@ footer
             display: block;
         }
     }
+
+
+    /* ---------------------------------------
+    works
+    --------------------------------------- */
+    #works {
+        background: linear-gradient(180deg, #fff 0%, #fff 30%, #F0F0F0 30%, #F0F0F0 100%);
+        padding: 60px 20px;
+        .works-inner {
+            display: block;
+        }
+    }
 }

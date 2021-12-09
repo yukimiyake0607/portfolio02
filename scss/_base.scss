@@ -43,7 +43,7 @@ img {
     .section-inner {
         .section-title {
             font-size: 3.6rem;
-            font-weight: bold;
+            font-weight: 600;
             color: #391E88;
             .section-subtitle {
                 font-size: 1.3rem;
@@ -72,6 +72,11 @@ img {
         }
         &:nth-of-type(5) {
             padding-top: 40px;
+        }
+        .section-inner {
+            .section-title {
+                font-size: 3rem;
+            }
         }
     }
 }

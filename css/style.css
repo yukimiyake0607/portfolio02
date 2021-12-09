@@ -50,7 +50,7 @@ img {
 
 .section-wrapper .section-inner .section-title {
   font-size: 3.6rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #391E88;
 }
 
@@ -76,6 +76,9 @@ img {
   }
   .section-wrapper:nth-of-type(5) {
     padding-top: 40px;
+  }
+  .section-wrapper .section-inner .section-title {
+    font-size: 3rem;
   }
 }
 
@@ -540,6 +543,17 @@ footer
   #service .service-list {
     display: block;
   }
+  /* ---------------------------------------
+    works
+    --------------------------------------- */
+  #works {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(30%, #fff), color-stop(30%, #F0F0F0), to(#F0F0F0));
+    background: linear-gradient(180deg, #fff 0%, #fff 30%, #F0F0F0 30%, #F0F0F0 100%);
+    padding: 60px 20px;
+  }
+  #works .works-inner {
+    display: block;
+  }
 }
 
 /* ---------------------------------
@@ -702,7 +716,7 @@ footer
 
 .works-img-wrapper img {
   max-width: 750px;
-  height: 510px;
+  max-height: 510px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -716,6 +730,19 @@ footer
 .works-text-wrapper .works-text {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/* ----------------------------
+メディアクエリ
+---------------------------- */
+@media screen and (max-width: 768px) {
+  .works-img-wrapper {
+    margin-bottom: 40px;
+  }
+  .works-text-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .company-heading {
