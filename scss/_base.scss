@@ -58,3 +58,24 @@ img {
 
 
 
+/* ---------------------------------------
+メディアクエリ
+--------------------------------------- */
+@media screen and (max-width:768px) {
+    .section-wrapper {
+        padding: 80px 4vw 0;
+        &:first-of-type {
+            padding-top: 40px;
+        }
+        &:nth-of-type(4) {
+            padding-top: 40px;
+        }
+        &:nth-of-type(5) {
+            padding-top: 40px;
+        }
+    }
+}
+
+
+
+

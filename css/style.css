@@ -61,6 +61,24 @@ img {
   display: block;
 }
 
+/* ---------------------------------------
+メディアクエリ
+--------------------------------------- */
+@media screen and (max-width: 768px) {
+  .section-wrapper {
+    padding: 80px 4vw 0;
+  }
+  .section-wrapper:first-of-type {
+    padding-top: 40px;
+  }
+  .section-wrapper:nth-of-type(4) {
+    padding-top: 40px;
+  }
+  .section-wrapper:nth-of-type(5) {
+    padding-top: 40px;
+  }
+}
+
 .link-btn {
   display: inline-block;
   background-image: -webkit-gradient(linear, left top, right top, from(#7633a4), color-stop(51%, #250d65), to(#7633a4));
