@@ -516,6 +516,12 @@ footer
   #news .news-inner .news-heading {
     margin-bottom: 32px;
   }
+  /* ---------------------------------------
+    service
+    --------------------------------------- */
+  #service .service-list {
+    display: block;
+  }
 }
 
 /* ---------------------------------
@@ -640,12 +646,17 @@ footer
 }
 
 .service-item {
-  max-width: 350px;
+  max-width: 100%;
+  margin-right: 30px;
+}
+
+.service-item:last-of-type {
+  margin-right: 0;
 }
 
 .service-item .card-img-wrapper img {
   width: 100%;
-  height: 220px;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -663,6 +674,12 @@ footer
 
 .service-item .card-body .card-text {
   text-align-last: left;
+}
+
+@media screen and (max-width: 768px) {
+  .service-item {
+    margin: 0 0 40px 0;
+  }
 }
 
 .works-img-wrapper img {
