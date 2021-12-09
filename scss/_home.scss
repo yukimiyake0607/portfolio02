@@ -383,4 +383,20 @@ footer
             display: block;
         }
     }
+
+
+    /* ---------------------------------------
+    company
+    --------------------------------------- */
+    #company {
+        padding: 40px 0 70px;
+        background-image: none;
+        .company-inner {
+            text-align: center;
+        }
+    }
+
+    .company-bg {
+        margin-top: 40px;
+    }
 }

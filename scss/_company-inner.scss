@@ -15,5 +15,29 @@
     .message-text {
         margin-top: 52px;
         margin-bottom: 30px;
+        line-height: 1.8;
+    }
+}
+
+
+
+/* ----------------------------
+メディアクエリ
+---------------------------- */
+@media screen and (max-width:768px) {
+    .company-heading {
+        margin-bottom: 30px;
+    }
+    .company-body {
+        .message-title {
+            font-size: 3.2rem;
+            line-height: 1.5;
+            .sp-br {
+                display: block;
+            }
+        }
+        .message-text {
+            margin-top: 43px;
+        }
     }
 }

@@ -554,6 +554,19 @@ footer
   #works .works-inner {
     display: block;
   }
+  /* ---------------------------------------
+    company
+    --------------------------------------- */
+  #company {
+    padding: 40px 0 70px;
+    background-image: none;
+  }
+  #company .company-inner {
+    text-align: center;
+  }
+  .company-bg {
+    margin-top: 40px;
+  }
 }
 
 /* ---------------------------------
@@ -765,6 +778,26 @@ footer
 .company-body .message-text {
   margin-top: 52px;
   margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+/* ----------------------------
+メディアクエリ
+---------------------------- */
+@media screen and (max-width: 768px) {
+  .company-heading {
+    margin-bottom: 30px;
+  }
+  .company-body .message-title {
+    font-size: 3.2rem;
+    line-height: 1.5;
+  }
+  .company-body .message-title .sp-br {
+    display: block;
+  }
+  .company-body .message-text {
+    margin-top: 43px;
+  }
 }
 
 .recruit-heading {
