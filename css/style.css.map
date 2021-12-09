@@ -17,7 +17,8 @@
         "../scss/_service.scss",
         "../scss/_works.scss",
         "../scss/_company.scss",
-        "../scss/_recruit.scss"
+        "../scss/_recruit.scss",
+        "../scss/_contact.scss"
     ],
     "names": [],
     "file": "style.css"
