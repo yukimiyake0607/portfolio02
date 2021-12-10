@@ -111,7 +111,11 @@ header
 ------------------------ */
 .header {
   position: absolute;
-  width: calc(100% - 60px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -504,6 +508,9 @@ footer
   .sp-br {
     display: block;
   }
+  .header {
+    padding: 30px 4vw;
+  }
   .header-nav {
     display: none;
     position: fixed;
@@ -515,6 +522,28 @@ footer
   }
   .header .burger-btn {
     display: block;
+    position: relative;
+    z-index: 100;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    opacity: .9;
+    border: none;
+    outline: none;
+    background: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
   }
   .header .burger-btn .bars .bar {
     display: block;
@@ -528,6 +557,14 @@ footer
   }
   .header .burger-btn .bars .bar-mid {
     margin-bottom: 7px;
+  }
+  .header .cross .bars .bar::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .header .cross .bars .bar::after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
   }
   .fv .main-copy {
     text-align: left;
