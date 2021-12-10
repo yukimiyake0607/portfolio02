@@ -414,4 +414,23 @@ footer
         display: block;
     }
 
+
+
+    /* ---------------------------------------
+    footer
+    --------------------------------------- */
+    .footer {
+        padding: 60px 30px;
+    }
+
+}
+
+
+
+@media screen and (max-width:587px) {
+    .footer {
+        .footer-nav > .footer-nav-list {
+            justify-content: start;
+        }
+    }
 }
