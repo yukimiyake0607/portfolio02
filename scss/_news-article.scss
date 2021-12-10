@@ -39,7 +39,7 @@
                 margin-bottom: 20px;
                 padding: 10px 0;
                 &::before {
-                    background-color: #391E88; /* 線色 */
+                    background-color: $color-primary; /* 線色 */
                     border-radius: 3px; /* 線幅の半分 */
                     content: "";
                     display: inline-block;
@@ -83,7 +83,7 @@
         }
         .post-pager {
             width: 100%;
-            color: #391E88;
+            color: $color-primary;
             .post-pager-inner {
                 padding-top: 11px;
                 padding-bottom: 11px;
@@ -153,7 +153,7 @@
                 .news-article-content-title {
                     font-size: 1.8rem;
                     &::before {
-                        background-color: #391E88; /* 線色 */
+                        background-color: $color-primary; /* 線色 */
                         border-radius: 3px; /* 線幅の半分 */
                         content: "";
                         display: inline-block;
@@ -186,7 +186,7 @@
                 .post-pager-home {
                     margin-top: 20px;
                     font-size: 1.4rem;
-                    color: #391E88;
+                    color: $color-primary;
                     a {
                         display: block;
                         text-align: center;

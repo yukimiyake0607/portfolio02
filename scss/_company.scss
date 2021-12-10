@@ -21,7 +21,7 @@
                     .heading-secondary {
                         font-size: 3.2rem;
                         font-weight: bold;
-                        color: #391E88;
+                        color: $color-primary;
                     }
                 }
                 .greeting-body {
@@ -71,7 +71,7 @@
             .heading-secondary {
                 font-size: 3.2rem;
                     font-weight: bold;
-                    color: #391E88;
+                    color: $color-primary;
             }
         }
         .company-summary-table {

@@ -4,7 +4,7 @@
     .recruit-message {
         margin-bottom: 70px;
         &-heading {
-            color: #391E88;
+            color: $color-primary;
             text-align: center;
             margin-bottom: 40px;
             &-title {
@@ -43,7 +43,7 @@
             font-size: 3.2rem;
             font-weight: 700;
             text-align: center;
-            color: #391E88;
+            color: $color-primary;
             margin-bottom: 40px;
         }
         &-body {
@@ -57,7 +57,7 @@
             font-weight: bold;
             margin-bottom: 48px;
             text-align: center; 
-            color: #391E88;
+            color: $color-primary;
         }
         &-table {
             width: 100%;
@@ -94,7 +94,7 @@
             font-size: 3.2rem;
             font-weight: 700;
             text-align: center;
-            color: #391E88;
+            color: $color-primary;
             margin-bottom: 40px;
         }
         &__movie {
@@ -177,7 +177,7 @@
                 font-size: 3.2rem;
                 font-weight: 700;
                 text-align: center;
-                color: #391E88;
+                color: $color-primary;
                 margin-bottom: 40px;
             }
             &__movie {
