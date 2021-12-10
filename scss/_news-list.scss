@@ -43,6 +43,16 @@
         margin-bottom: 40px;
         .news-list-heading {
             margin-bottom: 10px;
+            .news-list-category {
+                margin-right: 15px;
+                .news-list-item {
+                    font-size: 1.1rem;
+                    padding: 4px 16px;
+                }
+            }
+        }
+        .news-list-body {
+            font-size: 1.4rem;
         }
     }
 }
