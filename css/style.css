@@ -1479,6 +1479,7 @@ footer
 .recruit-contents .company-movie {
   max-width: 1110px;
   margin: 0 auto;
+  padding: 0 4vw;
 }
 .recruit-contents .company-movie-heading {
   font-size: 3.2rem;
@@ -1489,7 +1490,7 @@ footer
 }
 .recruit-contents .company-movie__movie iframe {
   width: 100%;
-  height: 624px;
+  min-height: 624px;
   margin: 0 auto;
 }
 
@@ -1548,6 +1549,22 @@ footer
     text-align: left;
     display: block;
     box-sizing: border-box;
+  }
+  .recruit-contents .company-movie {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  .recruit-contents .company-movie-heading {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #391E88;
+    margin-bottom: 40px;
+  }
+  .recruit-contents .company-movie__movie iframe {
+    width: 100%;
+    min-height: 188px;
+    margin: 0 auto;
   }
 }
 .contact-forms {
