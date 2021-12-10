@@ -75,7 +75,7 @@ img {
     padding-top: 40px;
   }
   .section-wrapper:nth-of-type(5) {
-    padding-top: 40px;
+    padding: 40px 0 0;
   }
   .section-wrapper .section-inner .section-title {
     font-size: 3rem;
@@ -566,6 +566,12 @@ footer
   }
   .company-bg {
     margin-top: 40px;
+  }
+  /* ---------------------------------------
+    recruit
+    --------------------------------------- */
+  #recruit {
+    display: block;
   }
 }
 
