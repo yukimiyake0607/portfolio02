@@ -774,6 +774,15 @@ footer
   .pages-fv .pages-title .heading-primary .heading-primary-sub {
     font-size: 1.3rem;
   }
+  .guide-arrow-wrapper {
+    padding: 6px 20px;
+  }
+  .guide-arrow-wrapper .guide-arrow-list .guide-arrow-item {
+    margin-right: 10px;
+  }
+  .guide-arrow-wrapper .guide-arrow-list .guide-arrow-item:last-of-type {
+    margin-right: 0;
+  }
 }
 
 .news-item {

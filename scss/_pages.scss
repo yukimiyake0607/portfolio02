@@ -71,6 +71,8 @@
             }
         }
     }
+
+
     .pages-fv {
         min-height: 190px;
         .pages-title {
@@ -79,6 +81,18 @@
                 font-size: 3rem;
                 .heading-primary-sub {
                     font-size: 1.3rem;
+                }
+            }
+        }
+    }
+
+    .guide-arrow-wrapper {
+        padding: 6px 20px;
+        .guide-arrow-list {
+            .guide-arrow-item {
+                margin-right: 10px;
+                &:last-of-type {
+                    margin-right: 0;
                 }
             }
         }
