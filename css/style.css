@@ -1283,6 +1283,7 @@ footer
 .company-contents .greeting .greeting-ceo .ceo-message {
   max-width: 605px;
   line-height: 1.667;
+  margin-left: 50px;
 }
 .company-contents .company-summary {
   max-width: 1110px;
@@ -1358,6 +1359,7 @@ footer
     max-width: 100%;
     line-height: 1.667;
     font-size: 1.4rem;
+    margin-left: 0;
   }
   .company-contents .company-summary .company-summary-heading {
     text-align: center;
