@@ -50,7 +50,37 @@
 
 
 
-
 #contact {
     margin-top: 0;
+}
+
+
+
+/* --------------------------------
+メディアクエリ
+-------------------------------- */
+@media screen and (max-width:768px) {
+    .header {
+        .header-logo {
+            .site-title {
+                img {
+                    height: 22px;
+                    width: 124px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+    .pages-fv {
+        min-height: 190px;
+        .pages-title {
+            top: 60%;
+            .heading-primary {
+                font-size: 3rem;
+                .heading-primary-sub {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
 }
