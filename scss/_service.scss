@@ -13,11 +13,11 @@
                     margin-bottom: 0;
                 }
                 .img-wrapper {
+                    margin-right: 50px;
                     img {
                         width: 445px;
                         height: 280px;
                         object-fit: cover;
-                        margin-right: 50px;
                     }
                 }
                 .text-wrapper {
@@ -34,4 +34,48 @@
             }
         }
     }
+}
+
+
+
+/* -------------------------------------------------
+メディアクエリ
+------------------------------------------------- */
+@media screen and (max-width:768px) {
+    .service-contents {
+        padding: 40px 4vw 80px;
+        .service-content {
+            .service-list {
+                .service-item-list {
+                    display: block;
+                    margin-bottom: 50px;
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                    .img-wrapper {
+                        margin-bottom: 20px;
+                        margin-right: 0;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .text-wrapper {
+                        max-width: 100%;
+                        .text-heading {
+                            .service-content-title {
+                                font-size: 1.8rem;
+                                margin-bottom: 15px;
+                                text-align: center;
+                            }
+                            .service-content-text {
+                                width: 100%;
+                                line-height: 1.7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }  
 }

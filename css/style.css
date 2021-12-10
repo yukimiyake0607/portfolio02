@@ -1087,12 +1087,14 @@ footer
 .service-contents .service-content .service-list .service-item-list:last-of-type {
   margin-bottom: 0;
 }
+.service-contents .service-content .service-list .service-item-list .img-wrapper {
+  margin-right: 50px;
+}
 .service-contents .service-content .service-list .service-item-list .img-wrapper img {
   width: 445px;
   height: 280px;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-right: 50px;
 }
 .service-contents .service-content .service-list .service-item-list .text-wrapper {
   max-width: 615px;
@@ -1106,6 +1108,41 @@ footer
   margin-bottom: 20px;
 }
 
+/* -------------------------------------------------
+メディアクエリ
+------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .service-contents {
+    padding: 40px 4vw 80px;
+  }
+  .service-contents .service-content .service-list .service-item-list {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .service-contents .service-content .service-list .service-item-list:last-of-type {
+    margin-bottom: 0;
+  }
+  .service-contents .service-content .service-list .service-item-list .img-wrapper {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .service-contents .service-content .service-list .service-item-list .img-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+  .service-contents .service-content .service-list .service-item-list .text-wrapper {
+    max-width: 100%;
+  }
+  .service-contents .service-content .service-list .service-item-list .text-wrapper .text-heading .service-content-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .service-contents .service-content .service-list .service-item-list .text-wrapper .text-heading .service-content-text {
+    width: 100%;
+    line-height: 1.7;
+  }
+}
 .works-contents {
   padding: 70px 4vw 110px;
 }
