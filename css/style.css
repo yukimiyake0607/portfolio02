@@ -1404,7 +1404,7 @@ footer
 .recruit-contents .recruit-message-heading-title {
   font-size: 7.2rem;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .recruit-contents .recruit-message-heading-subtitle {
   font-size: 3.2rem;
@@ -1429,6 +1429,7 @@ footer
 .recruit-contents .job-list {
   max-width: 1110px;
   margin: 0 auto 140px;
+  padding: 0 4vw;
 }
 .recruit-contents .job-list-heading {
   font-size: 3.2rem;
@@ -1448,6 +1449,7 @@ footer
   font-weight: bold;
   margin-bottom: 48px;
   text-align: center;
+  color: #391E88;
 }
 .recruit-contents .job-list-table {
   width: 100%;
@@ -1491,6 +1493,63 @@ footer
   margin: 0 auto;
 }
 
+/* ------------------------------------------
+メディアクエリ
+------------------------------------------ */
+@media screen and (max-width: 786px) {
+  .recruit-contents {
+    padding: 40px 0 80px;
+  }
+  .recruit-contents .recruit-message {
+    margin-bottom: 40px;
+  }
+  .recruit-contents .recruit-message-heading {
+    margin-bottom: 25px;
+  }
+  .recruit-contents .recruit-message-heading-title {
+    font-size: 4.8rem;
+  }
+  .recruit-contents .recruit-message-body p {
+    font-size: 1.4rem;
+  }
+  .recruit-contents .recruit-message-body-img {
+    height: 290px;
+  }
+  .recruit-contents .job-list {
+    margin-bottom: 80px;
+    padding: 0 4vw;
+  }
+  .recruit-contents .job-list-body {
+    padding: 30px 20px;
+  }
+  .recruit-contents .job-list-title {
+    font-size: 1.6rem;
+    margin-bottom: 35px;
+  }
+  .recruit-contents .job-list-table {
+    width: 100%;
+    margin-bottom: 40px;
+    line-height: 1.8;
+  }
+  .recruit-contents .job-list-table tr {
+    border-bottom: 1px solid #DDDDDD;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .recruit-contents .job-list-table tr th {
+    width: 100%;
+    padding: 0 0 10px;
+  }
+  .recruit-contents .job-list-table tr td {
+    width: 100%;
+    padding: 0 0 15px;
+  }
+  .recruit-contents .job-list-table tr th, .recruit-contents .job-list-table tr td {
+    text-align: left;
+    display: block;
+    box-sizing: border-box;
+  }
+}
 .contact-forms {
   padding: 70px 4vw;
 }

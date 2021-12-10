@@ -10,7 +10,7 @@
             &-title {
                 font-size: 7.2rem;
                 font-weight: bold;
-                margin-bottom: 5px;
+                margin-bottom: 15px;
             }
             &-subtitle {
                 font-size: 3.2rem;
@@ -38,6 +38,7 @@
     .job-list {
         max-width: $width-medium;
         margin: 0 auto 140px;
+        padding: 0 4vw;
         &-heading {
             font-size: 3.2rem;
             font-weight: 700;
@@ -56,6 +57,7 @@
             font-weight: bold;
             margin-bottom: 48px;
             text-align: center; 
+            color: #391E88;
         }
         &-table {
             width: 100%;
@@ -99,6 +101,71 @@
                 width: 100%;
                 height: 624px;
                 margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* ------------------------------------------
+メディアクエリ
+------------------------------------------ */
+@media screen and (max-width:786px) {
+    .recruit-contents {
+        padding: 40px 0 80px;
+        .recruit-message {
+            margin-bottom: 40px;
+            &-heading {
+                margin-bottom: 25px;
+                &-title {
+                    font-size: 4.8rem;
+                }
+            }
+            &-body {
+                p {
+                    font-size: 1.4rem;
+                }
+                &-img {
+                    height: 290px;
+                }
+            }
+        }
+
+        .job-list {
+            margin-bottom: 80px;
+            padding: 0 4vw;
+            &-body {
+                padding: 30px 20px;
+            }
+            &-title {
+                font-size: 1.6rem;
+                margin-bottom: 35px;
+            }
+            &-table {
+                width: 100%;
+                margin-bottom: 40px;
+                line-height: 1.8;
+                tr {
+                    border-bottom: 1px solid #DDDDDD;
+                    display: block;
+                    margin-bottom: 20px;
+                    th {
+                        width: 100%;
+                        padding: 0 0 10px;
+                    }
+                    td {
+                        width: 100%;
+                        padding: 0 0 15px;
+                    }
+                    th, td {
+                        text-align: left;
+                        display: block;
+                        box-sizing: border-box;
+                    }
+                }
             }
         }
     }
