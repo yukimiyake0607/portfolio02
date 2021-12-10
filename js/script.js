@@ -25,6 +25,7 @@ $(function(){
     const nav = $('.header-nav');
 
     burger.on('click', function () {
+      nav.fadeToggle(300);
       burger.toggleClass('cross');
       nav.toggleClass('show');
     });
