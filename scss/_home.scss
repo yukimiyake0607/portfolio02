@@ -269,11 +269,13 @@ footer
     .footer-nav > .footer-nav-list {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         margin-bottom: 20px;
         font-size: 1.4rem;
         font-weight: bold;
         .footer-nav-item {
             margin-right: 30px;
+            margin-bottom: 20px;
             &:last-of-type {
                 margin-right: 0;
             }

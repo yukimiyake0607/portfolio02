@@ -457,6 +457,8 @@ footer
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 20px;
   font-size: 1.4rem;
   font-weight: bold;
@@ -464,6 +466,7 @@ footer
 
 .footer .footer-nav > .footer-nav-list .footer-nav-item {
   margin-right: 30px;
+  margin-bottom: 20px;
 }
 
 .footer .footer-nav > .footer-nav-list .footer-nav-item:last-of-type {
