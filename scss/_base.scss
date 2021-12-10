@@ -5,6 +5,8 @@ $width-large: 1300px;
 $width-medium: 1110px;
 $width-small: 917px;
 
+$color-primary: #391E88;
+
 .sp-br {
     display: none;
 }
@@ -44,7 +46,7 @@ img {
         .section-title {
             font-size: 3.6rem;
             font-weight: 600;
-            color: #391E88;
+            color: $color-primary;
             .section-subtitle {
                 font-size: 1.3rem;
                 font-weight: 600;
