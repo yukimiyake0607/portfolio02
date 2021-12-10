@@ -90,3 +90,89 @@
         }
     }
 }
+
+
+/* -----------------------------------------
+メディアクエリ
+----------------------------------------- */
+@media screen and (max-width:768px) {
+    .company-contents {
+        padding: 0 4vw 50px;
+        .greeting {
+            margin-bottom: 80px;
+            .greeting-message {          
+                padding: 0 4vw;
+                background-position: top;
+                background-repeat: repeat;
+                margin-bottom: 0;
+                .greeting-bg {
+                    padding: 60px 0 60px;
+                    background-image: none;
+                    .greeting-heading {
+                        .heading-secondary {
+                            font-size: 2.4rem;
+                        }
+                    }
+                    .greeting-body {
+                        .message-heading {
+                            margin-top: 30px;
+                            margin-bottom: 44px;
+                            font-size: 3.2rem;
+                            .sp-br {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+            .greeting-ceo {
+                display: block;
+                .ceo-img-wrapper {
+                    margin-bottom: 30px;
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .ceo-message {
+                    max-width: 100%;
+                    line-height: 1.667;
+                    font-size: 1.4rem;
+                    
+                }
+            }
+        }
+
+        .company-summary {
+            .company-summary-heading {
+                text-align: center;
+                margin-bottom: 50px;
+                .heading-secondary {
+                    font-size: 2.4rem;
+                }
+            }
+            .company-summary-table {
+                width: 100%;
+                margin-bottom: 60px;
+                tr {
+                    display: block;
+                    border-bottom: 1px solid #ddd;
+                    margin-bottom: 20px;
+                    th {
+                        display: block;
+                        width: 100%;
+                        padding: 0;
+                        margin-bottom: 10px;
+                    }
+                    td {
+                        width: 100%;
+                        padding: 0;
+                        display: block;
+                        margin-bottom: 20px;
+                        line-height: 1.8;
+                    }
+                }
+            }
+        }
+    }
+}

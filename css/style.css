@@ -1313,6 +1313,82 @@ footer
   padding: 30px 0;
 }
 
+/* -----------------------------------------
+メディアクエリ
+----------------------------------------- */
+@media screen and (max-width: 768px) {
+  .company-contents {
+    padding: 0 4vw 50px;
+  }
+  .company-contents .greeting {
+    margin-bottom: 80px;
+  }
+  .company-contents .greeting .greeting-message {
+    padding: 0 4vw;
+    background-position: top;
+    background-repeat: repeat;
+    margin-bottom: 0;
+  }
+  .company-contents .greeting .greeting-message .greeting-bg {
+    padding: 60px 0 60px;
+    background-image: none;
+  }
+  .company-contents .greeting .greeting-message .greeting-bg .greeting-heading .heading-secondary {
+    font-size: 2.4rem;
+  }
+  .company-contents .greeting .greeting-message .greeting-bg .greeting-body .message-heading {
+    margin-top: 30px;
+    margin-bottom: 44px;
+    font-size: 3.2rem;
+  }
+  .company-contents .greeting .greeting-message .greeting-bg .greeting-body .message-heading .sp-br {
+    display: block;
+  }
+  .company-contents .greeting .greeting-ceo {
+    display: block;
+  }
+  .company-contents .greeting .greeting-ceo .ceo-img-wrapper {
+    margin-bottom: 30px;
+  }
+  .company-contents .greeting .greeting-ceo .ceo-img-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+  .company-contents .greeting .greeting-ceo .ceo-message {
+    max-width: 100%;
+    line-height: 1.667;
+    font-size: 1.4rem;
+  }
+  .company-contents .company-summary .company-summary-heading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .company-contents .company-summary .company-summary-heading .heading-secondary {
+    font-size: 2.4rem;
+  }
+  .company-contents .company-summary .company-summary-table {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .company-contents .company-summary .company-summary-table tr {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  .company-contents .company-summary .company-summary-table tr th {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .company-contents .company-summary .company-summary-table tr td {
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+}
 .recruit-contents {
   padding: 116px 0 110px;
   background-image: url("../img/bg-geometry.png");
