@@ -76,6 +76,7 @@ img {
   }
   .section-wrapper:nth-of-type(5) {
     padding: 40px 0 0;
+    margin-bottom: 80px;
   }
   .section-wrapper .section-inner .section-title {
     font-size: 3rem;
@@ -822,6 +823,17 @@ footer
 
 .recruit-body {
   width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .recruit-heading {
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 60px 0 50px;
+  }
+  .recruit-body {
+    width: 100%;
+  }
 }
 
 .news-contents {
