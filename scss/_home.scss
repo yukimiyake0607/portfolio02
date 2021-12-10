@@ -324,6 +324,7 @@ footer
             width: 100vw;
             height: 100vh;
             overflow: hidden;
+            z-index: 100;
             background: linear-gradient(#642390 0%, #19074a 100%);
         }
         .burger-btn {
@@ -344,6 +345,7 @@ footer
             appearance: none;
             .bars {
                 .bar {
+                    position: absolute;
                     display: block;
                     height: 2px;
                     width: 31px;
@@ -351,25 +353,40 @@ footer
                     border-radius: 1px;
                 }
                 .bar-top {
-                    margin-bottom: 7px;
+                    top: 0;
                 }
                 .bar-mid {
-                    margin-bottom: 7px;
+                    top: 9px;
+                }
+                .bar-bottom {
+                    top: 18px;
                 }
             }
         }
 
         .cross {
             .bars {
-                .bar {
-                    &::before {
-                        transform: rotate(45deg);
-                    }
-                    &::after {
-                        transform: rotate(-45deg);
-                    }
+                .bar-top {
+                    transition: .3s;
+                    transform: rotate(45deg);
+                    top: 9px;
+                    
+                }
+                .bar-mid {
+                    transition: .3s;
+                    opacity: 0;
+                }
+                .bar-bottom {
+                    transition: .3s;
+                    transform: rotate(-45deg);
+                    top: 9px;
                 }
             }
+        }
+
+        .show {
+            visibility: visible;
+            opacity: 1;
         }
     }
 

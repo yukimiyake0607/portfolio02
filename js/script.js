@@ -1,4 +1,6 @@
 $(function(){
+
+
     // #で始まるリンクをクリックした場合
     $('a[href^="#"]').click(function() {
       // スクロールの速度
@@ -15,4 +17,15 @@ $(function(){
       $('body,html').animate({scrollTop:position}, speed, type);
       return false;
     });
-  });
+
+
+
+    // ハンバーガーメニュー
+    const burger = $('.burger-btn');
+    const nav = $('.header-nav');
+
+    burger.on('click', function () {
+      burger.toggleClass('cross');
+      nav.toggleClass('show');
+    });
+});
