@@ -511,15 +511,45 @@ footer
   .header {
     padding: 30px 4vw;
   }
-  .header-nav {
+  .header .header-nav {
     display: none;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     z-index: 100;
     background: -webkit-gradient(linear, left top, left bottom, from(#642390), to(#19074a));
     background: linear-gradient(#642390 0%, #19074a 100%);
+  }
+  .header .header-nav .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .header .header-nav .nav-list .nav-item {
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  .header .header-nav .nav-list .nav-item:last-of-type {
+    margin-bottom: 0;
   }
   .header .burger-btn {
     display: block;
@@ -584,7 +614,7 @@ footer
   }
   .header .show {
     visibility: visible;
-    opacity: 1;
+    display: block;
   }
   .fv .main-copy {
     text-align: left;

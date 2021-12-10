@@ -318,14 +318,34 @@ footer
 
     .header {
         padding: 30px 4vw;
-        &-nav {
+        .header-nav {
             display: none;
             position: fixed;
+            top: 0;
+            left: 0;
             width: 100vw;
             height: 100vh;
             overflow: hidden;
             z-index: 100;
             background: linear-gradient(#642390 0%, #19074a 100%);
+            .nav-list {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                flex-direction: column;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                .nav-item {
+                    margin-bottom: 20px;
+                    margin-left: 0;
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                }
+            }
         }
         .burger-btn {
             display: block;
@@ -386,7 +406,7 @@ footer
 
         .show {
             visibility: visible;
-            opacity: 1;
+            display: block;
         }
     }
 
