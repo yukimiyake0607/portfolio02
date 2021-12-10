@@ -1575,6 +1575,9 @@ footer
   text-align: center;
   margin-bottom: 40px;
 }
+.contact-forms-heading .sp-br {
+  display: none;
+}
 .contact-forms-body {
   max-width: 1110px;
   padding: 90px;
@@ -1642,4 +1645,72 @@ footer
 .contact-forms-body .form .link-btn {
   display: block;
   margin: 0 auto;
+}
+
+/* --------------------------------------------
+メディアクエリ
+-------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .contact-forms {
+    padding: 40px 4vw;
+  }
+  .contact-forms-heading {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.8;
+  }
+  .contact-forms-heading .sp-br {
+    display: block;
+  }
+  .contact-forms-body {
+    padding: 30px 30px 50px;
+  }
+  .contact-forms-body .form-item {
+    margin-bottom: 30px;
+  }
+  .contact-forms-body .form-radio {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .contact-forms-body .form-input {
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #AAAAAA;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  .contact-forms-body .form-note {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-left: 5px;
+  }
+  .contact-forms-body .form-textarea {
+    min-width: 220px;
+    min-height: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #AAAAAA;
+    border-radius: 6px;
+    resize: both;
+    background-color: #fff;
+  }
+  .contact-forms-body .form-select {
+    width: 300px;
+    height: 40px;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #AAAAAA;
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+  .contact-forms-body .form .link-btn {
+    display: block;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=style.css.map */

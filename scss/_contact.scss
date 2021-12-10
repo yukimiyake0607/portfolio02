@@ -4,6 +4,9 @@
         font-size: 1.6rem;
         text-align: center;
         margin-bottom: 40px;
+        .sp-br {
+            display: none;
+        }
     }
     &-body {
         max-width: $width-medium;
@@ -72,6 +75,81 @@
             .link-btn {
                 display: block;
                 margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/* --------------------------------------------
+メディアクエリ
+-------------------------------------------- */
+@media screen and (max-width:768px) {
+    .contact-forms {
+        padding: 40px 4vw;
+        &-heading {
+            font-size: 1.4rem;
+            text-align: center;
+            margin-bottom: 30px;
+            line-height: 1.8;
+            .sp-br {
+                display: block;
+            }
+        }
+        &-body {
+            padding: 30px 30px 50px;
+            .form {
+                &-item {
+                    margin-bottom: 30px;
+                }
+                &-radio {
+                    display: block;
+                    margin-right: 0;
+                    margin-bottom: 10px;                    
+                }
+                &-input {
+                    width: 300px;
+                    height: 40px;
+                    border-radius: 6px;
+                    border: 1px solid #AAAAAA;
+                    padding: 5px;
+                    box-sizing: border-box;
+                    background-color: #fff;
+                }
+                &-note {
+                    font-size: 1.2rem;
+                    font-weight: 300;
+                    margin-left: 5px;
+                }
+                &-textarea {
+                    min-width: 220px;
+                    min-height: 40px;
+                    padding: 5px;
+                    box-sizing: border-box;
+                    border: 1px solid #AAAAAA;
+                    border-radius: 6px;
+                    resize: both;
+                    background-color: #fff;
+                }
+                &-select {
+                    width: 300px;
+                    height: 40px;
+                    padding: 13px;
+                    box-sizing: border-box;
+                    background-color: #fff;
+                    border-radius: 6px;
+                    border: 1px solid #AAAAAA;
+                    font-size: 1.4rem;
+                    line-height: 1;
+                }
+                .link-btn {
+                    display: block;
+                    margin: 0 auto;
+                }
             }
         }
     }
